@@ -1,8 +1,12 @@
 title: "YSAS4331 Site"
-descriptions:
-  en: "This is the site for Scratch's YSAS4331"
-  ja: "ScratchのYSAS4331のサイトです"
 author: "YSAS4331"
+
+plugins:
+  - jekyll-polyglot
+
+languages: ["en", "ja"]
+default_lang: "en"
+exclude_from_localization: ["assets", "images"]
 
 url: "https://YSAS4331.github.io"
 baseurl: ""
