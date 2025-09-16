@@ -22,4 +22,4 @@ markdown: kramdown
 collections:
   posts:
     output: true
-    permalink: /:lang/:title/
+    permalink: /:lang/:slug/
