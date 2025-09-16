@@ -4,9 +4,13 @@ author: "YSAS4331"
 plugins:
   - jekyll-polyglot
 
-languages: ["en", "ja"]
+languages:
+  - en
+  - ja
 default_lang: "en"
-exclude_from_localization: ["assets", "images"]
+exclude_from_localization:
+  - assets
+  - images
 
 url: "https://YSAS4331.github.io"
 baseurl: ""
