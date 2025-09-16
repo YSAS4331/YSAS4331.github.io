@@ -12,7 +12,14 @@ exclude_from_localization:
   - assets
   - images
 
-url: "https://YSAS4331.github.io"
+url: "https://ysas4331.github.io"
 baseurl: ""
 
 markdown: kramdown
+
+# ここから追加
+# 記事のパーマリンクを言語ごとに /en/スラッグ/ 形式にする
+collections:
+  posts:
+    output: true
+    permalink: /:lang/:title/
